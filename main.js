@@ -11,7 +11,7 @@ customers.results.forEach(function (profile) {
         <div class="info">
             <h6 class="email">${profile.email.toUpperCase()}</h6>
             <address>
-                ${profile.location.street}
+                ${profile.location.street}</br>
                 ${profile.location.city}, ${profile.location.state} ${profile.location.postcode}</br>
                 ${profile.cell}
             </address>
